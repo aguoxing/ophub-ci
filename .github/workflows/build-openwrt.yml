@@ -177,7 +177,6 @@ on:
           - 5.15.y
           - 6.1.y
           - 6.6.y
-          - 6.1.100
           - 6.1.y_6.6.y
           - 5.15.y_5.10.y
       auto_kernel:
@@ -382,7 +381,7 @@ jobs:
 
       - name: Packaging OpenWrt
         if: ${{ steps.clean.outputs.status }} == 'success' && !cancelled()
-        uses: ophub/amlogic-s9xxx-openwrt@main
+        uses: aguoxing/amlogic-s9xxx-openwrt@main
         with:
           openwrt_path: openwrt/output/*rootfs.tar.gz
           openwrt_board: ${{ inputs.openwrt_board }}
