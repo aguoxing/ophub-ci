@@ -7180,6 +7180,7 @@ CONFIG_DOCKER_STO_BTRFS=y
 # CONFIG_PACKAGE_elektra-kdb is not set
 # CONFIG_PACKAGE_evtest is not set
 # CONFIG_PACKAGE_extract is not set
+CONFIG_PACKAGE_mmc-utils=y
 # CONFIG_PACKAGE_fbtest is not set
 # CONFIG_PACKAGE_fdt-utils is not set
 CONFIG_PACKAGE_fibocom-dial=y
